@@ -11,7 +11,7 @@ iv. Esta tela não deve ser redimensionada;
 v. Execute o programa, e o resultado deve se similar ao da figura abaixo:
 
 
-import java.awt.Color;
+
 
 vi. Crie um novo objeto do tipo TelaBase, chamado t02;
 
@@ -26,6 +26,7 @@ x. Deixar a janela visível;
 xi. Execute o programa, e o resultado deve se similar ao da figura a seguir:
 */
 
+import java.awt.Color;
 public class TestaTela{
 
     public static void main(String[] args) {
