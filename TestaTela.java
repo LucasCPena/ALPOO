@@ -1,4 +1,30 @@
+/*c. Crie uma classe chamada TestaTela que possua um método main:
+
+i. No método main crie um objeto chamado t01 do tipo TelaBase;
+
+ii. Faça com que t01 seja visível;
+
+iii. A cor de fundo da janela deve ser verde;
+
+iv. Esta tela não deve ser redimensionada;
+
+v. Execute o programa, e o resultado deve se similar ao da figura abaixo:
+
+
 import java.awt.Color;
+
+vi. Crie um novo objeto do tipo TelaBase, chamado t02;
+
+vii. O título deve ser "Tela Base - Tela 02";
+
+viii. A cor de fundo deve ser amarela;
+
+ix. O local da nova janela deve ter as seguintes coordenadas: x = 300 e y = 0;
+
+x. Deixar a janela visível;
+
+xi. Execute o programa, e o resultado deve se similar ao da figura a seguir:
+*/
 
 public class TestaTela{
 

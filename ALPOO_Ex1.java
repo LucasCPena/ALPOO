@@ -1,3 +1,20 @@
+/*1. Criar um janela (Frame), conforme instruções:
+
+a. Criar um novo projeto JAVA com o seguinte nome: “ALPOO_02”;
+
+b. Criar uma classe chamada “Tela01”, que possua um método main;
+
+c. Instanciar um objeto chamado “t01” do tipo Frame (no método main);
+
+d. Defina o título de “t01” para “Tela 01 - Utilizando AWT”;
+
+e. Defina o tamanho da janela com 500px de comprimento e 300px de largura
+
+f. Deixe a janela visível
+*/
+
+
+
 import java.awt.Frame;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;

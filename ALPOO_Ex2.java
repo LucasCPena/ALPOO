@@ -1,3 +1,18 @@
+/*2. Altere alguns atributos do exercício anterior
+
+a. Título de “t01” para “Tela 01 - Utilizando AWT – Versão 2.0”;
+
+b. Alterar o tamanho da janela para 700px de comprimento e 400px de largura
+
+c. Alterar o posicionamento da tela para: 100 e 100
+
+d. Alterar a cor de fundo da janela para azul
+
+e. Não permitir que a janela seja redimensionada
+*/
+
+
+
 import java.awt.Color;
 import java.awt.Frame;
 import java.awt.event.WindowAdapter;
