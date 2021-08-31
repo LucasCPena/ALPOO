@@ -3,7 +3,11 @@ package ALPOO3;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+
+import java.awt.Color;
 import java.awt.GridLayout;
+import javax.swing.JButton;
+
 
 public class Calculadora extends Telabase {
     
@@ -11,13 +15,15 @@ public class Calculadora extends Telabase {
   JTextField txtnumero1;
   JTextField txtnumero2;
   JPanel painel;
-  JPanel btsomar;
-  JPanel btsubtrair;
-  JPanel btMutiplicar;
-  JPanel btdividir;
+  JButton btsomar;
+  JButton btsubtrair;
+  JButton btMutiplicar;
+  JButton btdividir;
+  JButton btresultado;
 
   Calculadora(){
-      lblresultado = new JLabel();
+      lblresultado = new JLabel("Calculadora");
+      lblresultado.setBackground(Color.black);
       txtnumero1 = new JTextField();
       txtnumero2 = new JTextField();
    
@@ -27,9 +33,34 @@ public class Calculadora extends Telabase {
       btsubtrair = new JButton("-");
       btMutiplicar = new JButton("*");
       btdividir = new JButton("/");
+      btresultado = new JButton("=");
+
+      painel.add(btsomar);
+      painel.add(btsubtrair);
+      painel.add(btMutiplicar);
+      painel.add(btMutiplicar);
+      painel.add(btdividir);
+      painel.add(btresultado);
+
+
+      add(lblresultado);
+      add(txtnumero1);
+      add(txtnumero2);
+      add(painel);
+
+
+    setLayout(new GridLayout(4,1,5,5));
+     setSize(400,200);
+     setResizable(false);
+     setTitle("Calculadora");
+
+
   }
 
+
   public static void main(String[] args) {
+    Calculadora t01 = new Calculadora();
+    t01.setVisible(true);
       
   }
 }
