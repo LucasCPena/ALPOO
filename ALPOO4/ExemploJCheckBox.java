@@ -29,7 +29,7 @@ public class ExemploJCheckBox extends JFrame {
         p.add(chkAnalise);
         add(p, BorderLayout.CENTER);
         add(btn, BorderLayout.SOUTH);
-        pack();
+        pack(); // Deixa o layout mais responsivel
         setVisible(true);
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
