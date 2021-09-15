@@ -11,7 +11,6 @@ import java.awt.GridLayout;
 import javax.swing.JRadioButton;
 import javax.swing.border.TitledBorder;
 
-import ALPOO3.BorderLayoutTeste;
 
 
 public class ExemploJRadioButton extends JFrame {

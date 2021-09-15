@@ -13,7 +13,9 @@ public class ExemploJTextArea extends JFrame {
         painelScroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
         painelScroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         add(painelScroll);
+
         setSize(400,400);
+        
         setVisible(true);
     }
     public static void main(String[] args) {
